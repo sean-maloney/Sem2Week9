@@ -19,4 +19,10 @@ public class CalcTest {
         assertEquals(6,newCalc.subtract(10,4));
     }
 
+    @Test
+    void testdivide(){
+        newCalc=new Calc();
+        assertEquals(5,newCalc.divide(10,2));
+    }
+
 }
