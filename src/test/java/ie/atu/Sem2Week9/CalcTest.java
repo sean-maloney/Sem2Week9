@@ -25,4 +25,10 @@ public class CalcTest {
         assertEquals(5,newCalc.divide(10,2));
     }
 
+    @Test
+    void testmultiply(){
+        newCalc=new Calc();
+        assertEquals(20,newCalc.multiply(10,2));
+    }
+
 }

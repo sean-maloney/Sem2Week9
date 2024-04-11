@@ -17,4 +17,9 @@ public class Calc {
         int result = firstNum3 / secondNum3;
         return result;
     }
+
+    public int multiply(int firstNum4, int secondNum4) {
+        int result = firstNum4 * secondNum4;
+        return result;
+    }
 }
